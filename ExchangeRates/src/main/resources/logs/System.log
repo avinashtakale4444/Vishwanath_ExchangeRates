@@ -1,0 +1,148 @@
+20:42:57,797  INFO org.apache.log4j.Logger<strong>{1}</strong>:13 - Test rates API for latest exchange ratesStarted Execution
+20:42:58,584 DEBUG Exchange_Rates<strong>{1}</strong>:27 - Latest exchange Url is present:https://api.ratesapi.io/api/latest
+20:43:00,537 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {s}->https://api.ratesapi.io:443
+20:43:00,568 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to api.ratesapi.io:443
+20:43:01,088 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+20:43:01,091 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+20:43:01,092 DEBUG org.apache.http.client.protocol.RequestTargetAuthentication<strong>{1}</strong>:80 - Target auth state: UNCHALLENGED
+20:43:01,093 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+20:43:01,094 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+20:43:01,094 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: GET /api/latest HTTP/1.1
+20:43:01,095 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "GET /api/latest HTTP/1.1[\r][\n]"
+20:43:01,098 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: */*[\r][\n]"
+20:43:01,098 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: api.ratesapi.io[\r][\n]"
+20:43:01,099 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+20:43:01,099 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+20:43:01,100 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+20:43:01,102 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+20:43:01,102 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> GET /api/latest HTTP/1.1
+20:43:01,103 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: */*
+20:43:01,104 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: api.ratesapi.io
+20:43:01,104 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+20:43:01,104 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+20:43:01,104 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+20:43:01,201 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+20:43:01,205 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Date: Tue, 12 Jan 2021 15:13:01 GMT[\r][\n]"
+20:43:01,207 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Type: application/json[\r][\n]"
+20:43:01,208 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+20:43:01,208 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: keep-alive[\r][\n]"
+20:43:01,209 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Set-Cookie: __cfduid=d07e4f95216736739ae92efd34be5e4cb1610464381; expires=Thu, 11-Feb-21 15:13:01 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax[\r][\n]"
+20:43:01,209 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Vary: Accept-Encoding[\r][\n]"
+20:43:01,210 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Methods: GET[\r][\n]"
+20:43:01,210 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+20:43:01,211 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+20:43:01,211 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Encoding: gzip[\r][\n]"
+20:43:01,211 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Cache-Control: max-age=14400[\r][\n]"
+20:43:01,212 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "CF-Cache-Status: HIT[\r][\n]"
+20:43:01,213 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Age: 6402[\r][\n]"
+20:43:01,213 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "cf-request-id: 0798c160c7000018a8b1a9f000000001[\r][\n]"
+20:43:01,214 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+20:43:01,214 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=KDrmsxR8pfB51fDutmlT0vcMQzpTs7pwZofCLx5PkgJHapplrsRLVLMARDxvlOe9dswbCOvbSIJ8uIg2fQawT5Zxl5QjihORCODfd81rlIo%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+20:43:01,215 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+20:43:01,215 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Server: cloudflare[\r][\n]"
+20:43:01,216 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "CF-RAY: 6107d1ae0bef18a8-SIN[\r][\n]"
+20:43:01,216 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+20:43:01,218 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+20:43:01,218 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+20:43:01,219 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Date: Tue, 12 Jan 2021 15:13:01 GMT
+20:43:01,219 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Type: application/json
+20:43:01,220 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Transfer-Encoding: chunked
+20:43:01,220 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: keep-alive
+20:43:01,221 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Set-Cookie: __cfduid=d07e4f95216736739ae92efd34be5e4cb1610464381; expires=Thu, 11-Feb-21 15:13:01 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+20:43:01,221 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Vary: Accept-Encoding
+20:43:01,222 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Methods: GET
+20:43:01,223 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Credentials: true
+20:43:01,223 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Origin: *
+20:43:01,224 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Encoding: gzip
+20:43:01,224 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Cache-Control: max-age=14400
+20:43:01,225 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << CF-Cache-Status: HIT
+20:43:01,225 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Age: 6402
+20:43:01,226 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << cf-request-id: 0798c160c7000018a8b1a9f000000001
+20:43:01,226 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+20:43:01,227 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=KDrmsxR8pfB51fDutmlT0vcMQzpTs7pwZofCLx5PkgJHapplrsRLVLMARDxvlOe9dswbCOvbSIJ8uIg2fQawT5Zxl5QjihORCODfd81rlIo%3D"}],"group":"cf-nel","max_age":604800}
+20:43:01,227 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << NEL: {"report_to":"cf-nel","max_age":604800}
+20:43:01,227 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Server: cloudflare
+20:43:01,228 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << CF-RAY: 6107d1ae0bef18a8-SIN
+20:43:01,244 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive indefinitely
+20:43:01,275 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json
+20:43:01,276 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "13d[\r][\n]"
+20:43:01,277 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]%Q[0xcb]r[0xc2] [0x14][0xfd][0x97][0xbb]F[0xe6][0x2][0xe1][0xb9][0x8b]F[0x8d][0x8d][0xc5][0xc]i[0xa6][0xd5][0x9d][0x9d][0xfa][0x3][0xb5];[0xc7][0xef]![0xee][0x80]s[0xcf][0xeb][0xf2][0xa0][0xef][0xeb][0xfd]F[0x89][0xb6]s!A[0xbf][0xd7][0xbf][0xdb][0x9d][0xd2][0x83][0xf6][0xeb][0x91][0x12][0xcb][0xc8][0xda]XA[0xfd][0xd0]Q[0x8a][0xb2]1F[0xd0][0xa1]+[0x94][0x94][0xd7][0xce]K[0xd5][0xe0]z[0x9c]([0x19][0x19][0x9c]w[0x82][0xba]a[0xa0][0xe4]1[0xe7]5[0x90][0x8c][0xc1][0x10][0xa5]i[0x80]l[0xfa][0x1d]X[0x92][0x83][0x9][0x82][0xde][0xbf]2%[0xdd]HkX[0x1][0xba][0x80][0xa4][0x9d][0xd4]&[\n]"
+20:43:01,278 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x9a][0xf6]][0x9d]s[\n]"
+20:43:01,278 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "c[0x1f][0xfd][0x1a][0xd2]N:[0xb][0xa0]/[0x8b][0xb4][0xad][0xf4]3[0x84][0x1b][0x19]u[0x80]>[0xe1]][0xb1]4[0xe][0xc8]&[0x9f][0xeb]P[0x8][0xc][0xcb][0xf5]>W[0xa9]h+g[0xec][0xd1][0xc7][0x6][0xd9][0x4] [0xd3][0xf6][0xc5][0xe1][0x9a]y<[0xe6][0xaa]fu[0x84][0xda][0xa5][0xad][0xe5][0x82][0xc][0xec][0xe1][0xb9]i[0x97]0[0xd6]Z[0xc4]<L[0x95]d[0xd1][0x1a][0xd2][0xe5]H[0xa9][0x6]s[0xe8]YN[0x8b]@[0xf0][0x8c]M[0xe5][0xcb]+\[\n]"
+20:43:01,279 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x94]s][0x1b][[0x0]o#[0xce][\n]"
+20:43:01,279 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "5[0xab]g[0x99][0xd1],r[0xb5][0x1]4[0x94]O@[0xc6][0xd8][0x5][0x9b][0xa7]EA+[0x87]e[0xf7][0xf3][0xae][0xae][0x80][0xa5][0x17][0xd4][0xce][0xaf]4>[0x98][0xa7][0xa0][0x1f][0xfc][0x14][0xbe]M[0xb3]V+V+[0xa5][0xe8][0xf9][0xf][0xe][0x8a]@;[0xcc][0x1][0x0][0x0]"
+20:43:01,280 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+20:43:01,280 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "0[\r][\n]"
+20:43:01,281 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+20:43:01,281 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+20:43:01,360 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@e24ddd0
+20:43:01,361 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive indefinitely
+20:43:01,765  INFO Exchange_Rates<strong>{1}</strong>:30 - Latest exchange Url executed on date:2021-01-11
+20:43:01,766  INFO Exchange_Rates<strong>{1}</strong>:36 - Response code returned:200
+20:43:01,767  INFO org.apache.log4j.Logger<strong>{1}</strong>:20 - Test rates API for latest exchange rates	Ended Execution
+20:43:01,776  INFO org.apache.log4j.Logger<strong>{1}</strong>:13 - Test rates API for latest exchange ratesStarted Execution
+20:43:01,788 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {s}->https://api.ratesapi.io:443
+20:43:01,789 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to api.ratesapi.io:443
+20:43:02,078 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+20:43:02,079 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+20:43:02,079 DEBUG org.apache.http.client.protocol.RequestTargetAuthentication<strong>{1}</strong>:80 - Target auth state: UNCHALLENGED
+20:43:02,079 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+20:43:02,079 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+20:43:02,079 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: GET /api HTTP/1.1
+20:43:02,080 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "GET /api HTTP/1.1[\r][\n]"
+20:43:02,080 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: */*[\r][\n]"
+20:43:02,080 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: api.ratesapi.io[\r][\n]"
+20:43:02,080 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+20:43:02,080 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)[\r][\n]"
+20:43:02,081 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+20:43:02,081 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+20:43:02,081 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> GET /api HTTP/1.1
+20:43:02,081 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: */*
+20:43:02,081 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: api.ratesapi.io
+20:43:02,081 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+20:43:02,082 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_251)
+20:43:02,082 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+20:43:02,499 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+20:43:02,500 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Date: Tue, 12 Jan 2021 15:13:02 GMT[\r][\n]"
+20:43:02,501 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Type: application/json[\r][\n]"
+20:43:02,502 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Length: 60[\r][\n]"
+20:43:02,502 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: keep-alive[\r][\n]"
+20:43:02,503 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Set-Cookie: __cfduid=d495b0d936556c1b0483a0a4e7d5b2d371610464382; expires=Thu, 11-Feb-21 15:13:02 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax[\r][\n]"
+20:43:02,504 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Methods: GET[\r][\n]"
+20:43:02,505 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+20:43:02,505 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+20:43:02,506 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "CF-Cache-Status: BYPASS[\r][\n]"
+20:43:02,507 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "cf-request-id: 0798c1649b000019ac428ad000000001[\r][\n]"
+20:43:02,507 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+20:43:02,508 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gcYIZYbNXLBw6vH6YjgMEVyALE0UkIeF%2FiP8QA7udZ8lQPlzVQKKaglF7ebzAn1fyCVPgkLCnNn8nT7MW8bAelULCeG14Uv6pPNiVuwaWrQ%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+20:43:02,509 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+20:43:02,510 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Vary: Accept-Encoding[\r][\n]"
+20:43:02,511 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Server: cloudflare[\r][\n]"
+20:43:02,511 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "CF-RAY: 6107d1b42b1b19ac-SIN[\r][\n]"
+20:43:02,512 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+20:43:02,513 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 400 Bad Request
+20:43:02,515 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 400 Bad Request
+20:43:02,515 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Date: Tue, 12 Jan 2021 15:13:02 GMT
+20:43:02,515 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Type: application/json
+20:43:02,516 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Length: 60
+20:43:02,517 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: keep-alive
+20:43:02,518 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Set-Cookie: __cfduid=d495b0d936556c1b0483a0a4e7d5b2d371610464382; expires=Thu, 11-Feb-21 15:13:02 GMT; path=/; domain=.ratesapi.io; HttpOnly; SameSite=Lax
+20:43:02,518 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Methods: GET
+20:43:02,519 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Credentials: true
+20:43:02,520 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Origin: *
+20:43:02,521 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << CF-Cache-Status: BYPASS
+20:43:02,521 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << cf-request-id: 0798c1649b000019ac428ad000000001
+20:43:02,521 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+20:43:02,522 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gcYIZYbNXLBw6vH6YjgMEVyALE0UkIeF%2FiP8QA7udZ8lQPlzVQKKaglF7ebzAn1fyCVPgkLCnNn8nT7MW8bAelULCeG14Uv6pPNiVuwaWrQ%3D"}],"group":"cf-nel","max_age":604800}
+20:43:02,523 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << NEL: {"report_to":"cf-nel","max_age":604800}
+20:43:02,523 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Vary: Accept-Encoding
+20:43:02,524 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Server: cloudflare
+20:43:02,524 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << CF-RAY: 6107d1b42b1b19ac-SIN
+20:43:02,525 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive indefinitely
+20:43:02,526 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json
+20:43:02,527 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+20:43:02,530 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "{"error":"time data 'api' does not match format '%Y-%m-%d'"}"
+20:43:02,530 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5339bbad
+20:43:02,531 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive indefinitely
+20:43:02,543 ERROR Exchange_Rates<strong>{1}</strong>:92 - Url is incomplete
+20:43:02,544  INFO org.apache.log4j.Logger<strong>{1}</strong>:20 - Test rates API for latest exchange rates	Ended Execution
